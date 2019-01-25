@@ -153,4 +153,4 @@
 この画面では食事ごとのや日毎の栄養素の合計値を確認でき、
 3大栄養素についてはそれぞれの栄養素の重量比も確認できる。
 
-![管理栄養士側のWebアプリケーションの画面（アドバイス作成）](./fig/dietitian-app-3.eps){width=\linewidth}
+![管理栄養士側のWebアプリケーションの画面（アドバイスの作成）](./fig/dietitian-app-3.eps){width=\linewidth}
