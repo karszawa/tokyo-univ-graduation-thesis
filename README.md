@@ -1,8 +1,6 @@
 # Description
 
-学校のレポートやらなにやらを書くときにマークダウンを書くとPDFにしてくれる便利なやつ
-
-変換するやつ
+Let's graduate from the University of Tokyo!
 
 # Usage
 
