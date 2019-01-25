@@ -1,0 +1,71 @@
+\documentclass[a4paper,10pt,report]{jsbook}
+\usepackage[left=25truemm, right=20truemm, top=25truemm, bottom=25truemm]{geometry}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{theorem}
+\usepackage{empheq}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{jlisting}
+\usepackage{longtable}
+\usepackage[dvipdfmx,hidelinks]{hyperref}
+\usepackage{bookmark}
+\usepackage{footnote}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{subfigure}
+
+\makeatletter
+ \renewcommand{\@cite}[2]{#1}
+\makeatother
+
+\hypersetup{linkcolor=black}
+
+\def\tightlist{} % for pandoc
+
+\hfuzz=6pt % ignore overfull hbox warning
+
+\renewcommand{\bibname}{参考文献}
+
+\lstdefinestyle{customc}{
+  language=C++,
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=leftline,
+  xleftmargin=\parindent,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  numbers=left
+}
+
+\lstset{escapechar=@,style=customc}
+
+\begin{document}
+
+% ignore latex font warning
+\input{src/font-definition.tex}
+
+\input{src/0-title.tex}
+
+\input{src/1-abstract.tex}
+
+\thispagestyle{empty}
+
+\tableofcontents
+
+\thispagestyle{empty}
+\setcounter{page}{0}
+\newpage
+
+\input{src/2-introduction.tex}
+\input{src/3-related-works.tex}
+\input{src/4-proposed-method.tex}
+\input{src/5-experiment.tex}
+\input{src/6-feature-work.tex}
+\input{src/7-conclusion.tex}
+
+\input{src/bibliography.tex}
+
+\input{src/8-acknowledgements.tex}
+
+\end{document}
