@@ -85,15 +85,13 @@
 - 後日、選手と確認する際に日毎に整理されていた方がわかりやすい
 -->
 
-実験を開始してから本稿の執筆まので間(約2週間)に合計でXX件の食事記録が作成され、YY件のアドバイスが作成された。
+実験を開始してから本稿の執筆まので間(約2週間)に合計で約500件の食事記録が作成された。
 図\ref{fig:athlete-food-records}に実際にアスリートが記録した食事を示す。
 
-<!-- TODO: 食事例の写真の例 -->
 ![食事記録の写真](fig/athlete-food-records.eps){width=\linewidth}
 
 次に図\ref{fig:athlete-messages}に管理栄養士とアスリートの間で送りあったメッセージの例を紹介する。
 
-<!-- TODO: メッセージの例 -->
 ![メッセージの例](fig/athlete-messages.eps){width=0.8\linewidth}
 
 図\ref{fig:athlete-food-records}や図\ref{fig:athlete-messages}で紹介したように、
