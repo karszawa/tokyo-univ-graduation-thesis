@@ -92,11 +92,14 @@
 
 次に図\ref{fig:athlete-messages}に管理栄養士とアスリートの間で送りあったメッセージの例を紹介する。
 
-![メッセージの例](fig/athlete-messages.eps){width=0.8\linewidth}
+![メッセージの例](fig/athlete-messages.eps){width=0.6\linewidth}
 
 図\ref{fig:athlete-food-records}や図\ref{fig:athlete-messages}で紹介したように、
 本システムは管理栄養士とアスリートの間のコミュニケーションを取るのに十分な機能を備えていることが確認できた。
-管理栄養士からも
+
+## 管理栄養士からのシステムの評価
+
+管理栄養士からは
 
 - 食品ごとの栄養素の計算をする必要がなくなった
 - 選手とやり取りしたメッセージをレポートの形式で保存する作業がなくなった
