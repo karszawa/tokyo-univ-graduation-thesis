@@ -60,15 +60,15 @@ Atletaの機能は大きく分けて次の5つがある。
   \centering
   \subfigure[食事記録の一覧画面]{
     \fbox{\includegraphics*[width=0.3\linewidth]{fig/atleta/1.eps}}
-    \label{fig:foodlog-1}
+    \label{fig:atleta-1}
   }
   \subfigure[練習スケジュールのカレンダー画面]{
     \fbox{\includegraphics*[width=0.3\linewidth]{fig/atleta/2.eps}}
-    \label{fig:foodlog-2}
+    \label{fig:atleta-2}
   }
   \subfigure[指導者とのメッセージ画面]{
     \fbox{\includegraphics*[width=0.3\linewidth]{fig/atleta/3.eps}}
-    \label{fig:foodlog-3}
+    \label{fig:atleta-3}
   }
   \caption{Atleta のアプリ画面}
   \label{fig:atleta}
